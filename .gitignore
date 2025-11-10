@@ -1,0 +1,53 @@
+# Arquivos de cache e bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Arquivos de saída e dados gerados
+output/
+season_2025/
+season_2025_pes/
+season_2024_pes/
+season_2023_pes/
+season_2022_pes/
+mapping_id.py 
+delete_folder_github.
+bookmakers_with_odds.txt
+
+
+json/
+*.csv
+*.json  # Se houver arquivos JSON temporários ou grandes
+
+# Configurações sensíveis (como tokens de API)
+.env
+config_local.py
+*.key
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+.cache/
+.cache_team_season.json  # Se for arquivo temporário
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+conect_db_to_csv.py
+join_team_stats.py
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Banco de dados e backups
+*.db
+*.sqlite3
+mongodump/
+
+# Outros
+node_modules/  # Se houver dependências JS futuramente
+.git/

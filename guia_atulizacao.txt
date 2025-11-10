@@ -1,0 +1,6 @@
+1 - Atualizar config.py colocar data desejada
+2 - Executar o script main.py
+3 - Executar o script  clear_data.py e clear_data_pes.py
+4 - gerar medias pes exceutar o aquivo medias_pes.py
+5 - Executar o next_games.py
+6 - Executar o script github   save_github.py save_github_pes.py
