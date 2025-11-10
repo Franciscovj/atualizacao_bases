@@ -1,53 +1,72 @@
-# Arquivos de cache e bytecode Python
+# ============================
+# 🐍 Python
+# ============================
+
+# Bytecode e cache
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 
-# Arquivos de saída e dados gerados
+# ============================
+# 📦 Saídas e dados gerados
+# ============================
+
 output/
 season_2025/
 season_2025_pes/
 season_2024_pes/
 season_2023_pes/
 season_2022_pes/
-mapping_id.py 
-delete_folder_github.
+
+# Mapas e arquivos gerados automaticamente
+mapping_id.py
+delete_folder_github.py
 bookmakers_with_odds.txt
 
-
+# JSONs e CSVs grandes ou temporários
 json/
 *.csv
-*.json  # Se houver arquivos JSON temporários ou grandes
+*.json
 
-# Configurações sensíveis (como tokens de API)
+# ============================
+# 🔐 Configurações sensíveis
+# ============================
+
 .env
 config_local.py
 *.key
 
-# Arquivos de log e temporários
+# ============================
+# 🧾 Logs e temporários
+# ============================
+
 *.log
 *.tmp
 .cache/
-.cache_team_season.json  # Se for arquivo temporário
+.cache_team_season.json
 
-# Arquivos de sistema
+# ============================
+# 💻 Sistema e IDEs
+# ============================
+
 .DS_Store
 Thumbs.db
-conect_db_to_csv.py
-join_team_stats.py
-
-# IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Banco de dados e backups
+# ============================
+# 🗄️ Banco de dados e backups
+# ============================
+
 *.db
 *.sqlite3
 mongodump/
 
-# Outros
-node_modules/  # Se houver dependências JS futuramente
-.git/
+# ============================
+# ⚙️ Outros
+# ============================
+
+node_modules/
